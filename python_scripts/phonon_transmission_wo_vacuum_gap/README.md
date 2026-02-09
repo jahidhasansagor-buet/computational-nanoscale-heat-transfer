@@ -1,34 +1,32 @@
-## Reference (paper)
-Zhang, W., Fisher, T.S. and Mingo, N., 2007. The atomistic Green's function method: An efficient simulation approach for nanoscale phonon transport. Numerical Heat Transfer, Part B: Fundamentals, 51(4), pp.333-349.
+\# Phonon transmission validation (AGF) — heterogeneous 1D chain (no vacuum gap)
 
-# Phonon transmission via Atomistic Green’s Function (AGF) — Heterogeneous 1D atomic chain (Fig. 5 & Fig. 7 reproduction)
 
-This repository reproduces the **heterogeneous 1D chain** results (phonon transmission and thermal conductance)
-using the **Atomistic Green’s Function (AGF)** method, and validates the implementation against published
-results by overlaying digitized reference data.
 
-## Reproduced results
-This code reproduces the following figures from the reference paper:
+Notebook-based validation of a 1D heterogeneous mass–spring chain using Atomistic Green’s Functions (AGF).
 
-- **Fig. 5:** Phonon transmission 
-- **Fig. 7:** Thermal conductance 
+It reproduces transmission T(ω) and thermal conductance G(T) and overlays reference data.
 
-## Validation data (digitized from the paper)
-The following files contain digitized data points extracted from the paper and are used **only for validation**
-(i.e., to check that the code reproduces the published curves):
-- `transmission_heterogeneous.txt` → reference points for **Fig. 5**
-- `conductance_heterogeneous.txt`  → reference points for **Fig. 7**
 
-## Files
-- `phonon_AGF_wo_vacuumgap.ipynb`  
-  Main notebook that computes:
-  1) transmission on a frequency grid  
-  2) conductance by integrating over frequency  
-  3) comparison overlays using the paper’s digitized data  
-  4) output figure saved as PNG (heterogeneous_conductance_and_transmission.png)
 
-## Requirements
-Python 3.x and:
-- `numpy`
-- `scipy`
-- `matplotlib`
+\## Files
+
+\- `phonon\_AGF\_wo\_vacuumgap.ipynb` — main notebook (runs the calculation and produces the plot)
+
+\- `transmission\_heterogeneous.txt` — reference data: ω (rad/s), T(ω)
+
+\- `conductance\_heterogeneous.txt` — reference data: T (K), G(T) (W/K)
+
+\- `heterogeneous\_conductance\_and\_transmission.png` — comparison figure
+
+
+
+\## Run
+
+Install dependencies:
+
+```bash
+
+pip install numpy scipy matplotlib
+
+
+
