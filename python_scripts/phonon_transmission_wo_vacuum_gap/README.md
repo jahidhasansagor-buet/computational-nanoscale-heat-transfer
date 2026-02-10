@@ -1,4 +1,4 @@
-# Phonon transmission via Atomistic Green’s Function (AGF) — Heterogeneous 1D atomic chain (Fig. 5 & Fig. 7 reproduction)
+# Phonon transmission via Atomistic Green’s Function (AGF) without vacuum gap — Heterogeneous atomic chain
 
 This repository reproduces the **heterogeneous 1D atomic-chain** results (phonon transmission and thermal conductance)
 using the **Atomistic Green’s Function (AGF)** method, and validates the implementation against published results by
