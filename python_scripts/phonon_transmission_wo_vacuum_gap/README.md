@@ -5,7 +5,7 @@ using the **Atomistic Green’s Function (AGF)** method, and validates the imple
 overlaying digitized reference data.
 
 ## Reference (paper)
-Zhang, W., Fisher, T.S. and Mingo, N., 2007. *The atomistic Green's function method: An efficient simulation approach for nanoscale phonon transport.Numerical Heat Transfer, Part B: Fundamentals, 51(4), pp. 333–349.
+Zhang, W., Fisher, T.S. and Mingo, N., 2007. The atomistic Green's function method: An efficient simulation approach for nanoscale phonon transport.Numerical Heat Transfer, Part B: Fundamentals, 51(4), pp. 333–349.
 
 ## Reproduced results
 This code reproduces the following figures from the reference paper:
