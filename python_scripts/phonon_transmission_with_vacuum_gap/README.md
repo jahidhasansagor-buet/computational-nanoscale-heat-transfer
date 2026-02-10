@@ -53,7 +53,7 @@ Each file contains **two columns**:
    - regenerate the transmission curves for **1.5–4.5 nm**,
    - overlay the digitized reference points,
 
-## Key parameters you will likely edit
+## Key editable parameters
 - gap/separation list (currently **1.5, 2.5, 3.5, 4.5 nm**)
 - frequency grid resolution
 - material parameters
