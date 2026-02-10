@@ -24,8 +24,8 @@ The following files contain digitized data points extracted from the paper and a
 ## Repository contents
 - `phonon_AGF_wo_vacuumgap.ipynb`  
   Main notebook that:
-  1) computes transmission \( \mathcal{T}(\omega) \) on a frequency grid  
-  2) computes conductance \( G_{\mathrm{th}}(T) \) via frequency integration  
+  1) computes transmission on a frequency grid  
+  2) computes conductance via frequency integration  
   3) overlays digitized reference points for validation  
   4) saves the output figure as PNG
 
