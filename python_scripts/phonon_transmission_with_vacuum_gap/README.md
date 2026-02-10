@@ -5,7 +5,7 @@ This repository reproduces **Fig. 5** from the paper *“Role of acoustic phonon
 The model treats the two sides as **separate harmonic lattices** and introduces a **gap-dependent coupling** across the vacuum region (i.e., no direct bonded interface). 
 The notebook regenerates the **spectral phonon transmission** used in Fig. 5 and overlays digitized reference points for validation.
 
-## Reference (paper)
+## Reference:
 Jarzembski, A., Tokunaga, T., Crossley, J., Yun, J., Shaskey, C., Murdick, R.A., Park, I., Francoeur, M. and Park, K., 2022.
 Role of acoustic phonon transport in near-to asperity-contact heat transfer. Physical Review B, 106(20), p.205418.
 
