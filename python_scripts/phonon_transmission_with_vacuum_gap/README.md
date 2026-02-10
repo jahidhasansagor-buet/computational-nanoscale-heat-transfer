@@ -38,7 +38,7 @@ Each file contains **two columns**:
 > Recommended: keep digitized data in a dedicated folder like `validation_data/` to separate it from generated outputs.
 
 ## Repository contents
-- `phonon_AGF_with_vacuum_gap.ipynb`  
+- `phonon_AGF_with_vacuumgap.ipynb`  
   Main notebook that:
   - builds left/right harmonic dynamical matrices (device region),
   - applies **gap-dependent coupling** across the vacuum gap,
@@ -47,7 +47,7 @@ Each file contains **two columns**:
 
 ## How to run
 1. Clone the repo and open the notebook:
-   - `phonon_AGF_with_vacuum_gap.ipynb`
+   - `phonon_AGF_with_vacuumgap.ipynb`
 2. Install requirements.
 3. Run all cells. The notebook will:
    - regenerate the transmission curves for **1.5–4.5 nm**,
