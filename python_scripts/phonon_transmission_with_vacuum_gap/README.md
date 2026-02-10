@@ -5,13 +5,9 @@ This repository reproduces **Fig. 5** from the paper *“Role of acoustic phonon
 The model treats the two sides as **separate harmonic lattices** and introduces a **gap-dependent coupling** across the vacuum region (i.e., no direct bonded interface). 
 The notebook regenerates the **spectral phonon transmission** used in Fig. 5 and overlays digitized reference points for validation.
 
----
-
 ## Reference (paper)
 Jarzembski, A., Tokunaga, T., Crossley, J., Yun, J., Shaskey, C., Murdick, R.A., Park, I., Francoeur, M. and Park, K., 2022.
 Role of acoustic phonon transport in near-to asperity-contact heat transfer. Physical Review B, 106(20), p.205418.
-
----
 
 ## Reproduced result
 
@@ -41,8 +37,6 @@ Each file contains **two columns**:
 
 > Recommended: keep digitized data in a dedicated folder like `validation_data/` to separate it from generated outputs.
 
----
-
 ## Repository contents
 - `phonon_AGF_with_vacuum_gap.ipynb`  
   Main notebook that:
@@ -51,8 +45,6 @@ Each file contains **two columns**:
   - computes transmission over a frequency grid,
   - overlays digitized points for **1.5, 2.5, 3.5, 4.5 nm**,
 
----
-
 ## How to run
 1. Clone the repo and open the notebook:
    - `phonon_AGF_with_vacuum_gap.ipynb`
@@ -60,7 +52,6 @@ Each file contains **two columns**:
 3. Run all cells. The notebook will:
    - regenerate the transmission curves for **1.5–4.5 nm**,
    - overlay the digitized reference points,
----
 
 ## Key parameters you will likely edit
 - gap/separation list (currently **1.5, 2.5, 3.5, 4.5 nm**)
